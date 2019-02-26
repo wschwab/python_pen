@@ -46,4 +46,4 @@ def file_to_set(file_name):
 def set_to_file(set_name, file_name):
     delete_file(file_name)
     for link in sorted(set_name):
-        append_to_file(file, link)
+        append_to_file(file, item)
